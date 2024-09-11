@@ -5,11 +5,11 @@
 
 #AFL++
 ```
-0. sudo apt install gcc make
-1. git clone https://github.com/AFLplusplus/AFLplusplus.git
-2. cd AFLplusplus
-3. make distrib
-4. sudo make install
+sudo apt install gcc make
+git clone https://github.com/AFLplusplus/AFLplusplus.git
+cd AFLplusplus
+make distrib
+sudo make install
 ```
 
 다 설치했으면 이제 끝!
