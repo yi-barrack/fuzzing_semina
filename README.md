@@ -18,3 +18,13 @@ export PATH=$PATH:/설치해둔/경로입력하세요/aflplusplus
 (터미널 껏다 켜면 다시 설정해야하기 때문에 영구적 설정은 gpt한테 물어보기)
 
 
+# dumb.c 컴파일
+```
+ gcc -fno-stack-protector -o dumb dumb.c
+```
+
+
+# afl 실습 명령어
+```
+afl-clang-fast -o dumb_afl dumb.c
+```
